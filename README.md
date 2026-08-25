@@ -338,6 +338,7 @@ ditentukan oleh aturan resmi yang berlaku.
 
 ## Referensi
 
+- [Tutorial VPS, Windows, Ubuntu, dan macOS](MULTI-PLATFORM.md)
 - [Source Technocore](https://github.com/flop-labs/technocore-chat)
 - [Reference client oleh Zunmax](https://github.com/zunmax/technocore-did-starter)
 - [Membuat Codespace — GitHub Docs](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository)
