@@ -1,0 +1,15 @@
+# Secrets and local identities
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+
+# Local tooling
+.venv/
+__pycache__/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
