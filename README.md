@@ -48,15 +48,25 @@ reward.
 
 ---
 
-## Step 1 — Buka GitHub Codespaces
+## Step 1 — Fork repo dan buka GitHub Codespaces
 
 Pastikan sudah login GitHub, lalu:
 
-1. Buka [repo ini](https://github.com/Dexanode/technocore-did).
-2. Tekan tombol **Code**.
-3. Pilih tab **Codespaces**.
-4. Tekan **Create codespace on main**.
-5. Tunggu sampai editor VS Code dan terminal terbuka di browser.
+1. Buka [Dexanode/technocore-did](https://github.com/Dexanode/technocore-did).
+2. Tekan tombol **Fork** di bagian kanan atas.
+3. Pilih akun GitHub kamu sebagai owner.
+4. Biarkan nama repository `technocore-did`, lalu tekan **Create fork**.
+5. Pastikan halaman yang terbuka sekarang menunjukkan
+   `USERNAME_KAMU/technocore-did`, bukan repo milik Dexanode.
+6. Di fork milikmu, tekan **Code**.
+7. Pilih tab **Codespaces**.
+8. Tekan **Create codespace on main**.
+9. Tunggu sampai editor VS Code dan terminal terbuka di browser.
+
+Fork membuat salinan repository di akunmu sendiri. Codespace dan perubahan di
+dalamnya menjadi workspace milikmu; kamu tidak membutuhkan akses tulis ke repo
+utama. Fork bukan tempat menyimpan private key—`identity.pem` tetap tidak boleh
+di-commit atau di-push.
 
 Jika memakai HP, aktifkan mode desktop browser agar terminal lebih mudah dipakai.
 Codespaces memakai kuota compute/storage akun GitHub. Hapus Codespace setelah

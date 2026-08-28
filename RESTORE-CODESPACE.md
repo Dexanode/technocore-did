@@ -23,17 +23,25 @@ Technocore tidak memiliki fitur reset password atau recovery terpusat.
 ## Step 1 — Pastikan Codespace lama memang hilang
 
 1. Buka [github.com/codespaces](https://github.com/codespaces).
-2. Cari Codespace untuk repository `Dexanode/technocore-did`.
+2. Cari Codespace untuk repository fork `USERNAME_KAMU/technocore-did`.
 3. Jika masih ada, tekan namanya untuk membuka kembali.
 4. Jika tidak ada, lanjutkan membuat Codespace baru.
 
-## Step 2 — Buat Codespace baru
+## Step 2 — Buka fork dan buat Codespace baru
+
+1. Buka fork `https://github.com/USERNAME_KAMU/technocore-did`.
+2. Pastikan owner repository adalah akunmu sendiri, bukan `Dexanode`.
+3. Tekan **Code**.
+4. Pilih tab **Codespaces**.
+5. Tekan **Create codespace on main**.
+6. Tunggu editor dan terminal selesai dimuat.
+
+Jika fork sudah terhapus, buat ulang terlebih dahulu:
 
 1. Buka [Dexanode/technocore-did](https://github.com/Dexanode/technocore-did).
-2. Tekan **Code**.
-3. Pilih tab **Codespaces**.
-4. Tekan **Create codespace on main**.
-5. Tunggu editor dan terminal selesai dimuat.
+2. Tekan **Fork**.
+3. Pilih akunmu dan tekan **Create fork**.
+4. Buat Codespace dari fork yang baru.
 
 Jika memakai HP, mode desktop browser biasanya lebih nyaman.
 
