@@ -264,6 +264,10 @@ Menutup tab browser saja tidak langsung menghentikan Codespace. GitHub juga dapa
 menghapus Codespace yang lama tidak aktif, jadi jangan menjadikannya satu-satunya
 tempat menyimpan identity.
 
+Jika Codespace sudah terhapus dan kamu ingin memakai DID yang sama lagi, ikuti
+[tutorial restore DID di Codespace baru](RESTORE-CODESPACE.md). Jangan jalankan
+`init`; upload backup `identity.pem`, lalu verifikasi dengan command `did`.
+
 ---
 
 ## Troubleshooting
@@ -338,6 +342,7 @@ ditentukan oleh aturan resmi yang berlaku.
 
 ## Referensi
 
+- [Restore DID di Codespace baru](RESTORE-CODESPACE.md)
 - [Tutorial VPS, Windows, Ubuntu, dan macOS](MULTI-PLATFORM.md)
 - [Source Technocore](https://github.com/flop-labs/technocore-chat)
 - [Reference client oleh Zunmax](https://github.com/zunmax/technocore-did-starter)
